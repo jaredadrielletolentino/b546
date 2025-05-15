@@ -1,0 +1,22 @@
+<element attribute="value"> - which behavior to be change
+reversed - is bolean (true or false) reverse the lettered list or numbered list or order.
+
+Hyperlink - ability to go to other web pages.
+
+<a href="link"> - anchor tag link to other web page or page.
+
+HREF - Hypertext Referrence.
+
+Links - refers to a web page address
+
+Domain - name of the website
+
+hyperlink - are page elements that you can click to go to a given link(inside the website)
+
+Absolute link - any links that come from outside of your current domain are considered as absolute links(Not part of the website).
+
+Relative link - links that target pages within the website. (./movies/dvd/index.html )
+
+./ - look for the same folder
+
+../ - go back to previous folder
