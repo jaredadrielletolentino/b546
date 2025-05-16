@@ -1,0 +1,123 @@
+/*CSS Reset Rule*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Bootstrap Font*/
+body {
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bg-primary {
+	background-color: dodgerblue;
+}
+
+.bg-secondary {
+	background-color: lightslategrey;
+}
+
+.text-light {
+	color: white;
+}
+
+.border {
+	border: 1px solid gray;
+}
+
+.border-dark {
+	border-color: black;
+}
+
+.pt-3 {
+	padding-top: 1rem;
+}
+
+.pb-3 {
+	padding-bottom: 1rem;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*12 Grind-System*/
+.col-1 {
+	width: calc(100%/12);
+}
+
+/*100%/12 is first column and 12 is how many column you will use multiply by 2 for the second column*/
+.col-2 {
+	width: calc((100%/12)*2);
+}
+
+.col-3 {
+	width: calc((100%/12)*3);
+}
+
+.col-4 {
+	width: calc((100%/12)*4);
+}
+
+.col-5 {
+	width: calc((100%/12)*5);
+}
+
+.col-6 {
+	width: calc((100%/12)*6);
+}
+
+.col-7 {
+	width: calc((100%/12)*7);
+}
+
+.col-8 {
+	width: calc((100%/12)*8);
+}
+
+.col-9 {
+	width: calc((100%/12)*9);
+}
+
+.col-10 {
+	width: calc((100%/12)*10);
+}
+
+.col-11 {
+	width: calc((100%/12)*11);
+}
+
+.col-12 {
+	width: calc((100%/12)*12);
+}
+
+
+/*Mobile First Approach*/
+/*Media Query*/
+
+/*Small Devices*/
+@media (min-width: 576px) {
+	body {
+		background-color: lightpink;
+	}
+}
+
+/*Medium Devices*/
+@media (min-width: 768px) {
+	body {
+		background-color: lightgreen;
+	}
+}
+
+/*Large Devices*/
+@media (min-width:  992px) {
+	body {
+		background-color: lightblue;
+	}
+}

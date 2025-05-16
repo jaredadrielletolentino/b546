@@ -1,0 +1,90 @@
+/*CSS Reset rule*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Float property*/
+/*CSS float property allows elements to be positioned horizontally within their parent element. When an element is floated, it is removed from the nomal flow of the document and positioned to the left or right of its container.*/
+/*If the position is static you cannot change the left top right bottom*/
+.img-float {
+	width: 250px;
+	height: 250px;
+
+	float: left;
+}
+
+/*#p-img {
+	float: left;
+}*/
+
+.parent-element {
+	background-color: skyblue;
+	padding: 10px;
+
+	position: relative;
+	height: 100vh;
+}
+
+.child-one {
+	background-color: gray;
+	padding: 10px;
+}
+
+/*relative remain in the normal flow of the document. But, unlike static elements, the left, right, top, bottom and z-index properties affect the position of the element*/
+
+/*Absolute are positioned relative to their parent elements. in this case, the element is removed from the normal document flow. the other elements will behave as if that element is not in the document.*/
+
+/*fixed position elements are similar to absolutely positioned elements. they are also removed from the normal flow of the document. but unlike absolutely positioned elements they are always positioned relative to the element.*/
+
+/*sticky is a mix of relative and fixed. it acts like a relatively positioned element until a certain scroll point and then it acts like fixed element.*/
+.child-two {
+	background-color: yellow;
+	padding: 10px;
+
+	position: sticky;
+	right: 10px;
+	top: 20px;
+}
+
+html {
+	height: 800vh;
+}
+
+.child-three {
+	background-color: gray;
+	padding: 10px;
+}
+
+.container {
+	position: relative;
+}
+
+.black-box {
+	border: 2px solid black;
+	height: 100px;
+	margin: 30px;
+	position: relative;
+	z-index: 3;
+}
+
+.gray-box {
+	background-color: lightgray;
+	height: 60px;
+	width: 70%;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	z-index: 2;
+}
+
+.green-box {
+	background-color: lightgreen;
+	width: 35%;
+	height: 100px;
+	position: absolute;
+	left: 270px;
+	top: -15px;
+	z-index: 1;
+}

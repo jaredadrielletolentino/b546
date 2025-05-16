@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Bootstrap Introduction and Simple Styles</title>
+
+		<!-- Bootstrap Link-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	</head>
+
+	<!-- text-center class centers all text, images and button elements. -->
+	<body class="text-center bg-secondary">
+		<!-- container class adds padding between the border of its parent element that makes the layout looks better. -->
+		<!-- container-fluid no padding, it uses parent padding or container. -->
+		<div class="container">
+			<h1>Bootstrap Introduction and Simple Styles</h1>
+
+			<!-- w-25 class it sets the width of the element into 25% of its parent element -->
+			<!-- img-fluid adapts the size of its parent -->
+			<!-- mx-auto to center the content. -->
+			<div class="d-none d-lg-inline-block w-25 mx-auto">
+				<img src="https://www.drupal.org/files/project-images/bootstrap-stack.png" class="img-fluid bg-white rounded-circle">
+			</div>
+
+			<h2>Bootstrap Color Classes</h2>
+
+			<!-- table class changes the appearance of the default HTML table. -->
+			<!-- table-dark class changes the color of the table to a dark color -->
+			<!-- table-bordered class adds border to our table for readability and styling. -->
+			<table class="table table-dark table-bordered">
+				<thead>
+					<tr>
+						<th>Text</th>
+						<th>Background</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<!-- text-primary class is one of the default colors of bootstrap. -->
+							<a class="text-primary" href="#">Primary Text</a>
+						</td>
+
+						<td class="bg-primary">
+							Primary Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-secondary changes the text color into gray -->
+							<a class="text-secondary" href="#">Secondary Text</a>
+						</td>
+
+						<td class="bg-secondary">
+							Secondary Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-success changes the text color into green -->
+							<a class="text-success" href="#">Sucess Text</a>
+						</td>
+
+						<td class="bg-success">
+							Success Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-warning changes the text color into yellow -->
+							<a class="text-warning" href="#">Warning Text</a>
+						</td>
+
+						<td class="bg-warning">
+							Warning Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-info changes the text color into sky blue -->
+							<a class="text-info" href="#">Info Text</a>
+						</td>
+
+						<td class="bg-info">
+							Info Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-light changes the text color into white-->
+							<a class="text-light" href="#">Light Text</a>
+						</td>
+
+						<td class="bg-light">
+							Light Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-dark changes the text color into black -->
+							<a class="text-dark" href="#">Dark Text</a>
+						</td>
+
+						<td class="bg-dark">
+							Dark Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-dark changes the text color into red -->
+							<a class="text-danger" href="#">Danger Text</a>
+						</td>
+
+						<td class="bg-danger">
+							Danger Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-dark changes the text color into gray -->
+							<a class="text-muted" href="#">Muted Link</a>
+						</td>
+
+						<td class="bg-muted">
+							Muted Background
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<!-- text-dark changes the text color into white -->
+							<a class="text-white" href="#">White Text</a>
+						</td>
+
+						<td class="bg-white">
+							White Background
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h2>Bootstrap Text Classes</h2>
+
+			<table class="table table-dark table-bordered">
+				<thead>
+					<tr>
+						<th>Alignment</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<!-- text-start to align in left -->
+						<td class="text-start">Left</td>
+					</tr>
+
+					<tr>
+						<!-- text-center to align in center -->
+						<td class="text-center">Center</td>
+					</tr>
+
+					<tr>
+						<!-- text-end to align in right -->
+						<td class="text-end">Right</td>
+					</tr>
+
+					<tr>
+						<td class="text-start text-md-center">Center</td>
+					</tr>
+
+					<tr>
+						<td class="text-end text-md-start">Medium Left</td>
+					</tr>
+
+					<tr>
+						<!-- lg is large -->
+						<!-- md is medium -->
+						<!-- xl is extra large -->
+						<!-- sm is small -->
+						<td class="text-lg-end">Large Right</td>
+					</tr>
+
+					<tr>
+						<td class="text-end text-xl-center">Extra Large</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</div>
+
+	
+
+		
+
+
+		<!-- Bootstrap Script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>

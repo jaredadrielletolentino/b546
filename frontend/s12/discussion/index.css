@@ -1,0 +1,175 @@
+/*CSS Reset Rule*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 25px;
+}
+
+h2, h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*Block element can be displayed into an inline element by using the display inline*/
+/*Inline element can't be change the width and height*/
+#div-1 {
+	background-color: skyblue;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+	display: inline;
+}
+
+#div-2 {
+	background-color: aquamarine;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+	display: inline;
+}
+/*Block value it will turns into a block element even if its a inline element*/
+#span-1 {
+	background-color: gray;
+	border: 2px solid black;
+	display: block;
+	height: 200px;
+	width: 200px;
+}
+
+#span-2 {
+	background-color: brown;
+	border: 2px solid black;
+	display: block;
+	height: 200px;
+	width: 200px;
+}
+
+#span-3 {
+	background-color: yellow;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+#span-4 {
+	background-color: orange;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+#div-3 {
+	background-color: pink;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+#div-4 {
+	background-color: violet;
+	border: 2px solid black;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+#div-5 {
+	background-color: aquamarine;
+	border: 2px solid black;
+}
+
+#div-6 {
+	background-color: lightcyan;
+	border: 2px solid black;
+	display: none;
+
+}
+
+#span-5 {
+	background-color: lightgreen;
+	border: 2px solid black;
+	display: none;
+}
+
+.box {
+	background-color: red;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+/*50% is relative to the parent element*/
+.fifty-percent {
+	width: 50%;
+}
+/*px is absolute regardless of the parent you can adjust the width and height*/
+.one-hundred-pixels {
+	width: 100px;
+}
+
+.parent {
+	width: 135px;
+	border: 2px solid navy;
+	font-size: 30px;
+}
+
+.fifty-vw {
+	width: 50vw;
+}
+
+.twenty-five-vh {
+	height: 25vh;
+}
+
+/*rem root element/universal font size 1rem is equivalent to 16px*/
+/*em and % is relative to parent*/
+/*vh and vw dependent on dimension of device or viewport*/
+/*Default font-size is 16px*/
+.one-rem {
+	font-size: 1rem;
+}
+
+.one-em {
+	font-size: 1em;
+}
+
+.two-rem {
+	font-size: 2rem;
+}
+
+.two-em {
+	font-size: 2em;
+}
+
+.two-hundred-percent {
+	font-size: 200%;
+}
+
+/*CSS background properties*/
+
+.background {
+	min-height: 100vh;
+	/*background-color: rgb(128, 128, 128);*/
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+/*value for background-repeat:  repeat, no-repear, repeat-y, repeat-x*/
+	background-repeat: no-repeat;
+/*value for background-size: by %, cover, 10% 75%*/
+	background-size: 100%;
+	background-position: center bottom;
+	background-attachment: scroll;
+}
+
+.bg-title {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin: 0;
+	line-height: 30rem;
+}
+
+.container-bg {
+	min-height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
