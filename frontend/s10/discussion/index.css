@@ -1,0 +1,96 @@
+/*
+	CSS Syntax:
+		selector {
+			property: value;
+		}
+*/
+
+
+/*Type Selector*/
+h1 {
+	/*Color property changes the color of text*/
+	color: red !important;
+	text-align: center;
+	font-size: 2rem;
+}
+
+/*Universal Selector*/
+/*font-family property change the style of the font and font-size change the size of the text*/
+* {
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+}
+
+/*Id Selector*/
+/*letter-spacing property changes the spaces in between of a text.*/
+#zuitt-motto {
+	letter-spacing: 5px;
+}
+
+/*Class Selector*/
+/*text-transform property changes font to certain case the value uppercase changes the text to all capitalized or uppercase letters.*/
+.offering-item {
+	text-transform: uppercase;
+}
+
+/*h3 {
+	letter-spacing: 25px;
+}*/
+
+
+/*Adjacent Sibling selector*/
+/*Target element should be above the h3 or before the img property*/
+h3 + img {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+/*Descendant Selector*/
+section li {
+	color: #075966;
+}
+
+/*General Sibling Selector*/
+/*text-decoration property changes line in text.*/
+h2 ~ a {
+	text-decoration: none;
+}
+
+/*Child selector*/
+section > .modules {
+	letter-spacing: 3px;
+}
+
+/*background-color property changes the background property of an element.*/
+body {
+	background-color: skyblue;
+}
+
+/*The scroll-behavior property changes the scrolling behavior when clicking on anchor tags.*/
+html {
+	scroll-behavior: smooth;
+}
+
+nav	{
+	background-color: white;
+}
+
+/*float property changes the horizontal alignment of an element to float either to the left or to the right*/
+div {
+	float: right;
+}
+
+section	{
+	height: 100vh;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+/*list-style-type property changes the bullet points/numbers used in a list.*/
+ol {
+	list-style-type: none;
+}
