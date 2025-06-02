@@ -1,0 +1,63 @@
+Software Development Lifecycles (SDLC)
+- Guide along the way while developing the software or website
+- is a process wherein different phases of software development are identified and key task or deliverables are determined for each phase.
+
+Common SDLC Phases
+Stage 1 Required capture and analysis - What are we supposed to build?
+Stage 2 Designing Project Architecture - How are we going to achieve what we aim for?
+Stage 3 Development and Programming - Lets build what we planned
+Stage 4 Testing - Have we built what we wanted?
+Stage 5 Develoyment - Lets start using what we've built.
+
+SDLC Models
+1. Waterfall model (Linear or One Directional only) used for short term development
+	Stage 1 Requirement capture and analysis
+	Stage 2 Designing
+	Stage 3 Implementation
+	Stage 4 Testing
+	Stage 5 Deployment
+	Stage 6 Release & Maintenance
+Pros of the waterfall model
+- Sequential and well defined process
+- clear deliverables at each phase
+- easy to understand
+- suitable for projects
+Cons of the waterfall model
+- lacks flexibility
+- limited customer involvement until final delivery
+- poor detection of defects and issues
+- prone to scope creep (scope creeping - from time to time to provide good output(from the scope they give))
+- limited collaboration and communication
+
+2. Iterative model
+	- Every iteration new function must be added.
+3. Spiral model 
+	- Combines elements of both iterative and waterfall models.
+	Stage 1 Planning Objective or idetify alternet solutions (Planning)
+	Stage 2 Risk analysis and resolving (Risk Analysis)
+	Stage 3 Develop the next level of product (Engineering)
+	Stage 4 Plan the next phase (Evaluation)
+4. Agile model
+	- combination of iterative and incremental process models wit hfocus on process adaptability and customer satisfaction by rapid delivery of working software product.
+	Stage 1 Planning
+	Stage 2 Requirement Analysis
+	Stage 3 Designing
+	Stage 4 Development
+	Stage 5 Testing
+
+	High level phases
+	Project initiation
+	release planning
+	iterative development
+	iteration review and retrospective
+	continuous integration and deployment
+	continuous
+
+	Agile method include
+	Rational Unified Process - makes phases overlap a bit.
+	Scrumb - 
+	Crystal clear
+	Extreme Programming 1996
+	Adaptive software development
+
+

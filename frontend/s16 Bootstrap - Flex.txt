@@ -1,0 +1,13 @@
+Session 16: Bootstrap - Flex
+- Manage the one-directional layout of elements using flexbox utilities from Bootstrap.
+
+* FLEXBOX
+- it is a powerful one-direction layout model that allows modification to the layout and spacing of a group of elements.
+- This model is in contrast to the grid layout where columns and rows are managed together.
+- In a flexbox, elements can be laid out either horizontally(row) or vertically(column), also known as the two axesof flex box.
+
+Flex Utility Classes
+- The main diff of using bootstraps flex utility classes is that we will not need to declare our own styles by creating a css file.
+- instead, classes will be used and added to element to apply certain flexbox styling.
+
+Bootstrap Padding and Margin values: https://getbootstrap.com/docs/5.0/utilities/spacing/#notation

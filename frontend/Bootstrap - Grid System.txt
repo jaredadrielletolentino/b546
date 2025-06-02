@@ -1,0 +1,19 @@
+Boostrap Grid System
+- Employ a responsive web page layout using Bootstrap Grid System.
+- Gutter spaces between the column
+
+Container - purpose is to set the width of the entire grid
+	- The width of the container is generally 100%, but it is encouraged to set a max-width for 	larger displays.
+
+
+Bootstrap Class for Grid system
+1. .container - provide a mean to contain your layout with a fixed width and horizontally pad your site's
+2. .container-fluid - a responsive pixel width or .container-fluid for width.
+
+Row - Purpose is to keep the column inside it from overflowing onto other rows.
+Rows are wrappers for columns. each column has horizontal padding (called a gutter) for controlling the space between them.
+Rows are important as it contains all the 12 columns and avoid the columns from overflowing.
+
+Column - the most important part of the grid. this is where contents are placed.
+Block elements nested inside columns will, by default, take up the width occupied by the columns
+* width per column: 100% width/12 columns=8.33% width

@@ -1,0 +1,16 @@
+Quiz Score Link: https://docs.google.com/forms/d/e/1FAIpQLSfUC_EI2F29uVhMwN1LC5qwUoXVUo-8yg9DLgcpeHgM075qnw/viewscore?viewscore=AE0zAgC_PeUiysDDfsy7ekv09gygkJR5z9yhPgMKcN9U8rwgGWD3ZM1nquEigC8htsF3O6A
+
+
+Bootstrap - Components
+- Employ and apply pre-build Bootstrap UI components in a web page.
+
+UI
+- User Interface is a feathure that allows a user to interact with a given device or application.
+
+UI Components in Bootstrap
+1. Navbar
+2. Carousel
+3. Cards
+4. Modal
+5. Alerts
+6. Pagination

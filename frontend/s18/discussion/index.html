@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Bootstrap Components</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="./bootstrap.png">
+	
+	<!-- Bootstrap Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- Start of Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+		<div class="container">
+			<a class="navbar-brand" href="#">Comp Parts</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav ms-auto d-flex d-grid gap-3">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link" href="#">Projects</a>
+					<a class="nav-link" href="#">FAQs</a>
+					<a class="nav-link" href="#">Contact</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- End of Navbar -->
+
+	<!-- Main Content -->
+	<div class="container-fluid text-center">
+		<!-- Landing -->
+		<div class="row bg-dark" id="landing">
+			<div class="col-12 col--md-8 mx-auto text-light text-center">
+				<img class="mt-5 rounded-circle" src="https://res.cloudinary.com/dym0dkrt5/image/upload/v1729737945/tech-computer-logo-template_23-2149203368_1_kalocs.jpg" width="250">
+
+				<div class="py-5">
+					<h1>Computer Solutions</h1>
+
+					<h3>PC Builders</h3>
+
+					<p>Computer Solutions specializes in building custom PCs tailored to your specific needs, whether for gaming, work, or personal use. Our expert team ensures high-quality performance with cutting-edge components and exceptional customer support.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Landing -->
+
+	<!-- Start of Carousel -->
+	<div class="row d-none d-md-block p-3">
+		<div class="col-6 mx-auto text-center">
+			<h1 class="mt-3 mb-5">Projects</h1>
+
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dym0dkrt5/image/upload/v1729737579/pcbuild-case-655_z0uchq.png" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>First slide label</h5>
+							<p>Some representative placeholder content for the first slide.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dym0dkrt5/image/upload/v1729737579/da346963c7749e52b06fe28d957dc294_w800_h600_h2a8ti.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Second slide label</h5>
+							<p>Some representative placeholder content for the second slide.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dym0dkrt5/image/upload/v1729737578/pcbuild-case-235_ksmlsy.png" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Third slide label</h5>
+							<p>Some representative placeholder content for the third slide.</p>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- End of Carousel -->
+
+	<!-- Start of Accordion -->
+	<div class="row bg-dark py-5">
+		<h2 class="my-5 text-light text-center">Frequently Asked Questions</h2>
+		<div class="col-md-8 col-12 mx-auto">
+
+			<div class="accordion" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Accordion Item #1
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Accordion Item #2
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							Accordion Item #3
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingFour">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							Accordion Item #4
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Accordion -->
+
+	<!-- Start of Form -->
+	<div class="row p-5" id="contact">
+		<h2 class="text-center">Contact Us</h2>
+		<div class="col-md-4 mt-md-3 mx-auto" id="form-col">
+			<form class="bg-primary p-3 rounded">
+				<div class="mb-3">
+					<label for="name" class="form-label">Name</label>
+					<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Type your name here">
+				</div>
+
+				<div class="mb-3">
+					<label for="email" class="form-label">Email</label>
+					<input type="email" class="form-control" id="exampleInputPassword1" placeholder="name@example.com">
+				</div>
+
+				<div class="mb-3">
+					<label for="contact" class="form-label">Contact Number</label>
+					<input type="number" class="form-control" id="contact" placeholder="+63 900 00000">
+				</div>
+
+				<div class="form-group">
+					<label class="text-light" for="concern">Concern</label>
+					<select class="form-control" id="concern">
+						<option>Quotation</option>
+						<option>Appointment</option>
+						<option>Follow-Up</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label class="text-light" for="message">Message</label>
+					<textarea class="form-control" id="message" rows="7"></textarea>
+				</div>
+				<button type="submit" class="btn btn-outline-light mt-3">Submit</button>
+			</form>
+		</div>
+	</div>
+	<!-- End of Form -->
+	<div>
+		<!-- End of Main Content -->
+
+		<!-- Bootstrap Script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+	</html>

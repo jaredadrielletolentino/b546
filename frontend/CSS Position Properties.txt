@@ -1,0 +1,23 @@
+CSS Positioning
+- Position element within a web page using CSS
+- define the position of an element in a document. you can put any html element at whatever location you like. This property works with the left, right, top, bottom properties to determine the final position of an element on a page.
+
+1. Static
+2. Relative
+3. Absolute
+4. Fixed
+5. Sticky
+
+CSS Float
+- Left and Right position only
+- used for positioning and formatting content which can be used to wrap text around images.
+- This property works with the left, right, none and inherit properties to determine the final position of an element on a page.
+
+1. Left
+2. Right
+3. None
+4. Inherit
+
+CSS z-index
+- Used for positioning elements in a stacking order allowing elements to overlap each other.
+- This property only works on positioned elements and flex items. The high the number provided will appear in front and the lower the number will appear in the back.

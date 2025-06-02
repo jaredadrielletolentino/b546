@@ -1,0 +1,47 @@
+* Git Push - from your device going to remote repo
+* Git Pull - from remote repo going to your device
+* Git Cloning - is process wherein a remote repo is copied into a new directory and establishes the same remote link in the new directory to clone a remote repo, the git clone <remote-repository-url> command is used.
+* Git Branching - is used to create branches. the codes in ea branch are independe of each other such that any change done in a branch does not appear in another branch unless it is merged.
+* Git Merge - is command in the git version control system that combines changes from different branch into a single branch.
+
+Importance of Git merge
+1. Code integration and collaboration - git merge allows devs to combine changes from diff branches, enabling seamless integration of code.
+2. Branch management - it allows us t o create and manage multiple branches for diff purposes, such as feature development, bug fixing, or experimentation.
+3. Version control - git merge helps maintain an accurate and comprehensive version history of your 		     project
+		   - each merge create a new commit, preserving the complete commit history and allowing 		     you to track and understand the evolution of your codebase over time.
+		   - this version control aspect is vital for debugging
+4. Conflict resolution - git merge enables the detection and resolution of conflicts that occur when the same lines of code are modified in diff branches 
+5. Code review - 
+
+* Git Merge Requests and Approvals - Merge request are request that allow merging of the content of two 
+
+* before switching to another branch make sure to commit first
+
+** FOR LEADERS **
+- To see all pull request go to Pull Request tab
+- To go the pushed branches follow the naming FEAT001 - FEAT005 and so on (for merging)
+- if all is good, no error will be found in merging
+- Create merge commit button
+- check the checkbox delete branch "Branch name"
+
+git pull once all branch has been merged
+Merge into: Master
+Pull from: Your branch
+git merge --continue (to merge or continue merging that the conflict has been resolve)
+:qa
+git push (copy the command that git bash will tell you to use)
+git branch to check what branch you are in
+git checkout to jump to another branch ("branch name")
+git checkout -b - to create branch
+git push origin master or main ("branch name")
+git pull origin master or main ("branch name")
+git reset (to remove added file)
+* To generate ssh keygen of device 
+SSH -keygen press enter
+Y
+Press enter
+C drive > user current using > check the id_rsa file keygen of device
+
+git config --global user.email "your email to zuitt git"
+git config --global user.name "jaredadrielletolentino"
+git config --global --list (to check)

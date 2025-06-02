@@ -1,0 +1,22 @@
+Tech Stack Miles Stone
+- CSS
+- CSS3
+
+Bootstrap - Introduction and Simple Styles
+- Apply style on HTML elements quicker with Bootstrap CSS Framework.
+- One of the most popular CSS Framework. It was developed by Mark Otto and Jacob Thornton at Twitter. It was release as an open-source product in August 2011.
+
+Features of Bootstrap
+- Easy Setup
+	- Anyone with a knowledge of HTML and CSS can quickly start using Bootstrap
+	- It also has good documentation on how to use its features.
+
+- Mobile-First Approach
+	- It consists of mobile-first styling throughout its code that helps developers create websites that are friendly to the mobile screens(such as tablets and smartphones).
+
+Companies using Bootstrap
+- Spotify
+- Twitter
+- Linkedin
+- Snapchat
+- Cursera

@@ -1,0 +1,17 @@
+CSS Box Model
+- Define the size, padding and margins of an HTML element.
+
+Part of the CSS Box
+1. Margin
+2. Border
+3. Padding
+4. Content
+5. Top
+6. Left
+7. Right
+8. Bottom
+
+Recall on Inline and Block Elements
+1. Block Elements (you can set width and height) - cause a line break and occupy the full width of the web page. 
+2. Inline Elements (you cannot set width and height) - will not cause a line break and will only take the width necessary to contain its content.
+

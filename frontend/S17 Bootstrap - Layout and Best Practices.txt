@@ -1,0 +1,31 @@
+Bootstrap - Layout and Best Practices
+- Best practices for spacing, flex, and grid systems.
+
+Spacing
+
+Gap Utility
+- When using display: grid, you can make use of gap utilities on the parent grid container. This can save on having to add margin utilities to individual grid items(children of a display:grid container).
+
+Horizontal centering
+- Bootstrap also includes an .mx-auto class for horizontally centering fixed-width block level content-that is content that has display:block and a width set-by setting the horizontal margins to auto.
+
+Grid vs Flexbox
+- Grid and flexbox are layout models that share similarities an can even be used together
+- the main diff is that you can use grid to create two-dimensional layouts. in contrast, you can only use flexbox to create one-dimensional layouts.
+- that means you can place components along the x- and y-axis in grid and only one axis in flexbox.
+- you can align components into columns and rows. this feature makes it ideal for larger layouts that must be divided into sections.
+- in other words, this type of layout will have elements that need to overlap and layer rather than being linear.
+
+Flex One-dimensional
+- with flexbox, you can layout and align elements in a container even if you dont know the size of those elements or if the size might change.
+
+Content-First vs Layout-First
+- another major diff between the two is that flexbox takes a basis in the content while grid takes a basis in the layout.
+
+Usage of Grid and Flexbox
+- You should consider using grid layout when
+1. you have a complex design to work with and want maintainable web pages
+2. you want to add gaps over the block elements
+3. You have a small design to work with a few rows and columns
+4. you need to align the elements
+5. You dont know how you content will look on the page, and you want everything to fit in.

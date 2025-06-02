@@ -1,0 +1,23 @@
+CSS - Common Styling Properties
+
+* Inline element - cannot change the width and height of an element.
+* Block element - can change the width and height of an element.
+
+CSS Display Property
+1. Block - specifies the display behavior
+2. Inline - 
+3. Inline-Block
+4. None - will not display
+
+Absolute Units - not relative to anything else and are generally considered to always be the same size.
+Relative Units - relative to something else, perhaps the size of the parent elements font, or the size of the viewport (dependent to universal sizing or web browser default size).
+Ex.of Relative units
+1. %
+2. em
+3. rem
+
+Pixels(px) - considered as absolute units, although they are relative to the DPI and resolution of the viewing device. But on the device itself, the px unit is fixed and does not change based on any other element.
+
+Viewport Units - represent a percentage of the current browser viewport. while similar to % units there is a difference. viewport units are calculated based on the browser dimensions percentage units on the other hand are calculated as a percentage of the parent element, which may be different than the viewport size.
+
+

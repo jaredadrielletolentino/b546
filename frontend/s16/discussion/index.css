@@ -1,0 +1,69 @@
+/*CSS Reset Rule*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Bootstrap Font*/
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+.bg-success {
+    background-color: forestgreen;
+}
+
+.bg-warning {
+    background-color: orange;
+}
+
+.bg-danger {
+    background-color: darkred;
+}
+
+.bg-secondary {
+    background-color: dimgray;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+/*Flex value of the display property will change the element into a block-level flex container.*/
+.d-flex {
+    display: flex;
+}
+
+/*justify-content property allows us to manipulate the positioning of our flex elements horizontally.*/
+/*This property will only take effect if and only if the elements are flex*/
+.justify-content-center {
+    justify-content: center;
+}
+/*align-items property allows us to manipulate the positioning of elements vertically.*/
+/* align-items property will only take effect if and only if the elements are flex*/
+.align-items-center {
+    align-items: center;
+}
+
+/*flex-direction property allows us to manipulate the direction of how elements are positioned inside a flex container*/
+.flex-column {
+    flex-direction: column;
+}
+
+/*column-reverse the alignment of elements if the alignment is A-c then it will be C-A the positioning*/
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}

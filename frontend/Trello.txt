@@ -1,0 +1,33 @@
+Tool: TRELLO (Web-based project management and collaboration tool)
+Collaborate with a team by analyzing, organizing and assigning tasks using Trello Board.
+
+Topics
+Trello
+Simplified Git Flow
+
+Trello Key Feat and Benefits
+
+1. Visual Task Management - Visual way to organize and manage tasks using boards, lists and cards, making it easy to see the progress of assignments, projects, and study tasks.
+
+2. Task Prioritization and Deadlines - With Trello, you can prioritize tasks by moving them across lists or assigning due dates, helping you stay focused and meet deadlines.
+
+3. Collaboration and Teamwork - Trello enables collaboration by allowing users to invite group members to boards facilitating task delegation, sharing resources and seamless communication.
+
+4. Customizable Workflow - Trello's flexible design allows students to customize their boards and lists based on their specific needs, whether it's organizing study schedules, management group projects, or tracking personal assignments.
+
+5. Mobile Accessibility - Trello offers a mobile app, allowing users to access and update their boards on the go, ensuring that tasks and projects can be managed from anywhere.
+
+6. Integration with Productivity Tools - Trello integrates with various productivity tools, such as Google Drive, Dropbox, and Calendar applications, streamlining workflows and centralizing resources.
+
+git checkout -b ("FEAT000-Feature")
+git push origin <Branch>
+
+Merging request processing
+
+Code review - LGTM
+
+Merge request accepted
+
+
+
+

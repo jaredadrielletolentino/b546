@@ -1,0 +1,59 @@
+Tech Stack Milestone - Trello and Git Merge
+
+Trello - Help a team to plan or to organize tasks
+
+CSS - Introduction and CSS Selectors
+- Design and style your web pages using CSS
+- Cascading Style Sheets is a stylesheet language used to describe the presentational semantics of a document written in HTML.
+- W3C or World wide web consortium developed CSS.
+- in HTML4, all of the formatting could be removed from the HTML document and placed in a separate style document called CSS.
+
+1. Id Selectors (Highest)
+- are unique
+- each element can have only on id
+- Select ids by using a #
+
+2. Class Selector (Second to the highest)
+- targets elements according to its class attribute; ideally used for targeting multiple elements at once.
+
+3. Attribute Selector (Third to the highest)
+- targets elements with a specified element attribute; used to target elements with a certain attribute
+
+4. Type Selector (4th to the highest)
+
+5. Universal Selector (5th to the highest)
+- targets all elements
+
+CSS Specificity 
+- This rule determines which style to apply to an element when there are multiple styles that targets the same elements.
+- Rule with more specificity gets applied and the lesser one gets overridden.
+
+The ff order prioritized style from highest to lowest priority(according to selector)
+1. Id selector(Highest
+2. class selector
+3. attribute selector
+4. type selector
+5. universal selector(Lowest)
+
+The ff order prioritizes style from highest to lowest priority
+1. Inline(Highest)
+2. Internal
+3. External(Lowest)
+
+CSS Selector Combinators
+- is something that explains the relationship between selectors
+
+* Four Diff combinators in CSS3
+1. Adjacent sibling selector (+) - separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element.
+
+2. General sibling selector (~) - separates two selectors and matches the second elements only if it follows the first element (though not necessarily immediate)
+
+3. Child Select (>) - separates two selectors and matches only those elements matched by the second selector that are children of elements matched by the first.
+
+4. Descendant selector (whitespace) - typically represented by a single space char - combines two selector
+
+5. Multiple selectors (,)
+
+
+To ignore specificity add this ( !important ) property to override other rule or syntax.
+

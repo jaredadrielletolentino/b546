@@ -1,0 +1,38 @@
+Tech Stack Milestone - HTML 
+What can I now do?
+
+Bootstrap github - https://github.com/twbs/bootstrap/blob/main/README.md
+
+Jsonwebtoken - https://github.com/auth0/node-jsonwebtoken
+
+Dev Skills and Dev Tools Introduction
+
+Steps for Search Engine Utilization
+1. The Problem as a question
+2. Scan the results
+3. Find the right terminology
+4. Search with updated terminology
+5. Read documentation and Test the solution
+
+Best PRactices for Using Documentation
+1. Effective Search Engine Utilization
+	Steps for Search Engine Utilization
+	- The Problem as a question
+	- Scan the Results
+	- Find the right terminology
+	-Search with updated Terminologies
+	- Read Documentation and Test the Solution
+2. Official Documentation Focus
+3. Efficient Navigation Techniques
+4. Applied Learning - Actively practicing and experimenting with acquired knowledge, reinforcing skills through hands-on exp and practical application.
+	How can we practice these codes (Applied Learning)
+	- Hands-on Implementation
+	- Modify and Experiment
+	- Debugging Practice
+	- Utilize Comments
+
+Why Focus on Official Documentation
+1 Accuracy & Reliability - Official Documentation is maintained by the creators
+2 Up-to-Date Info - It is regularly updated
+3 Authoritative Source - The most trustworthy foundation for learning and implementation
+4 Version Compatibility - Align with the specific version of the technology or software
