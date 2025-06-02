@@ -1,0 +1,75 @@
+
+/*mbr 5*/
+/*Activity step 13*/
+
+h4 ~ p {
+	text-align: center;
+}
+
+/*member 4*/
+
+/*Activity step 10 */
+
+.border-blue {
+	border: 2px solid blue;
+}
+
+/*Activity step 11*/
+
+img + ul {
+	list-style: none;
+}
+
+/*activity step 12*/
+
+section img {
+	height: 20vh;
+	width: 20vh;
+	border-radius: 100px;
+}
+
+
+/*mbr 2*/
+
+/*activity step 6*/
+
+
+
+
+*{
+	font-family: "Verdana", sans-serif;
+	font-size: 20px;
+}
+
+/*activity step 5*/
+ #external {
+	color: yellow;
+ }
+
+/*mbr 2*/
+
+
+/*Member 3*/
+/*Activity Step 7*/
+h1 {
+	font-size: 3rem;
+}
+
+/*Activity Step 8*/
+
+#sub-header{
+	text-transform: uppercase;
+}
+
+/*Activity Step 9*/
+.text-green {
+	background: green;
+}
+/*Member 5 assigned to Member 3*/
+/*Activity Step 14*/
+
+section > ul > li {
+	letter-spacing: 10px;
+}
+
+

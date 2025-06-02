@@ -1,0 +1,126 @@
+/*CSS Reset Rule
+This ensures that the default margin and padding is set to 0 regardless of the type of browser being used
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+/*Apply Google font to our webpage*/
+
+body{
+	font-family: 'Open Sans',sans-serif;
+}
+
+/*padding vs margin*/
+/*padding is best used when creating space between an element's border and it's content.*/
+/*margin is best used to creating space between elements.*/
+/*Note: If you don't indicate a location such as padding-top, the value is provided on all sides (left, right, top, bottom)*/
+nav{
+	padding: 0.8rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	
+}
+
+nav > ul{
+	list-style-type: none;
+}
+
+/*inline property changes the "block" li elements in the nav into "inline" li elements*/
+nav li {
+	margin: 0.5rem;
+	display: inline;
+}
+
+#intro{
+/*	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;*/
+	/* clockwise (top right bottom left)	*/
+	padding: 2rem 10% 3rem 10%;
+
+	text-align: center;
+}
+
+.header{
+	text-align: center;
+}
+
+#intro h2, #intro p{
+	margin-bottom: 1rem;
+}
+
+#intro > div > button{
+	background-color: #c2195b;
+	color: white;
+	font-weight: bold;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+#succeed-info{
+	padding: 2rem 10% 3rem 10%;
+}
+
+#succeed-info > h2{
+	margin-bottom: 1rem;
+}
+
+#succeed-info h3{
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+/* vertical-align: top changes the vertical alignment of an element into top */
+.card{
+	display: inline-block;
+	/* allows card to have equal height that adjust the content	*/
+	min-height: 175px;
+	width: 30%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	vertical-align: top;
+}
+
+/*Mbr 1*/
+/*Step 2*/
+
+#pre-footer{
+	padding: 1rem;
+	color: white;
+	background-color: #002540;
+}
+
+
+/*Mbr2 Child Selector*/
+#pre-footer div {
+	display: inline-block;
+	width: 20%;
+}
+
+/* all of the elements and div options */
+#pre-footer > div > h3, #pre-footer > div > p{
+	margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+
+/*Mbr4*/
+footer {
+	padding: 0.7rem;
+}
+
+
+/*Mbr5*/
+footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+
+}

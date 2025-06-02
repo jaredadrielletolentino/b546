@@ -1,0 +1,167 @@
+/*Mbr1*/
+/*Step 2*/
+/*CSS Reset Rule*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	/* Step 3 */
+	font-family: 'Open Sans', serif;
+}
+
+/*Step 4*/
+button{
+	color: white;
+	padding: 10px;
+	width: 9rem;
+	font-size: 10px;
+	font-weight: 100;
+	border-color: transparent;
+	border-radius: 25px;
+}
+
+/*mbr2*/
+
+/*step 5*/
+
+nav {
+
+	padding: 10px;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: white;
+
+}
+
+/*step 6*/
+
+.right-nav {
+	float: right;
+}
+
+/*step 7*/
+
+nav li {
+
+	list-style-type: none;
+	display: inline-block;
+}
+
+/*step 8*/
+
+.nav {
+
+	margin: 15px;
+	padding: 15px;
+
+}
+
+.nav-logo {
+
+	margin: 15px;
+	padding: 15px;
+
+}
+
+/*mbr3*/
+/*Step 9*/
+#logo {
+	padding-top: 20px;
+	padding-left: 25px;
+}
+
+/*mbr3*/
+/*Step 10*/
+#nav-button {
+	background-color: #c2195b;
+}
+
+
+
+#bg-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+
+}
+
+
+/*mbr3*/
+
+/* Member 4 */
+/*step 12*/
+.container {
+    text-align: right;
+    width: 40%;
+    position: relative;
+    left: 55%;
+}
+
+/* step 13*/
+.title {
+	font-family: "Zilla Slab", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 600;
+
+}
+/* step 14 */
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 75%;
+    margin-left: auto;
+    margin-top: 1rem;
+}
+/* step 15 */
+#apply-button {
+    margin-top: 20px;
+    background-color: #c2195b;
+}
+
+/* Member 5 */
+/* step 16 */
+#main {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* step 17 */
+.title-2 {
+    font-family: Zilla Slab, monospace;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* step 18 */
+.description {
+    margin: 20px 0 20px 0;
+    font-weight: 400;
+}
+
+/* step 19 */
+#book-button {
+    background-color: #336589;
+}
+
+/* step 20 */
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* step 21 */
+footer span {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
