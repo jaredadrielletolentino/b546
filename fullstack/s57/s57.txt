@@ -1,0 +1,11 @@
+JavaScript - DOM Manipulation
+
+- if CSS has a concept of box model, JavaScript has its own concept called document object model
+
+- In JavaScript, each element is document object model
+
+- An object in JavaScript contains info about a given object (such as properties and actions). In this case, the objects are the web page elements
+
+- Using the DOM concept in JavaScript, we will be able to access or modify the properties of an element in a webpage.
+
+- We can do a lot of things using DOM, However, we will focus on using DOM for managing form inputs
