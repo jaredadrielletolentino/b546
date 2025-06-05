@@ -1,0 +1,15 @@
+Quiz Link Score:
+https://docs.google.com/forms/d/e/1FAIpQLSeXk9kMN_6wKhCMISi6zJsNKxuacP0l7TyFNJ08649n3IW3aQ/viewscore?viewscore=AE0zAgDdhfGkdAwR1G36Sns2E1ASMZKPrx1nrZipZYtNPAZC41WM6XcJpEvaTmOXyQ
+
+JavaScript - Function Parameters
+- Create functions that receive a value.
+
+- A function in any programming language is a feature that lets us reuse our code to prevent code duplication
+
+- Functions are mostly created to create complicated tasks to run several lines of code in succession.
+
+- They are also used to prevent repeating lines/blocks of codes that perform the same task/function.
+
+- Functions can also receive data to process to truly allow its reusability.
+- Parameters are the placeholders listed in a functions definition. They allow the function to accept data.
+

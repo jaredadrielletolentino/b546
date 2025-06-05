@@ -1,0 +1,16 @@
+Quiz link:
+https://docs.google.com/forms/d/e/1FAIpQLSdmI8k5IHgTPliYQ3dIp3ZNgRs-5W0D6qBAXUZDNGjqpn14_g/viewscore?viewscore=AE0zAgBR9GpsG8CCFPYRztLCevau1CxF2yRXqhRz-Ks2jWFcmjYLjyd3bn4HOZJM-Q
+
+JavaScript - Selection Control Structures
+- Create code that will execute only when a given condition has been met.
+
+Selection Control Structures
+- A selection control structure allows us to select between two or more alternate paths. This is described as either two-way selection or multi-way selection.
+
+Conditional Statements
+- A conditional statement is one of the key features of a programming language.
+
+There are three types of conditional statements
+1. if - else statement
+2. switch statement
+3. try-catch-finally statement

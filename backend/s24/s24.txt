@@ -1,0 +1,18 @@
+Quiz Link: https://docs.google.com/forms/d/e/1FAIpQLSer4BuQPEL1F61uyKpkzVMnLHf7LwZdQNHVCIhESk3BqTyWGQ/viewscore?viewscore=AE0zAgBc4RVeLxnaTH1qjreEKIkhzqm9qKZRuAvSxADcvw6PCehaTwgBlEImghO3dg
+
+JavaScript - Basic Functions
+
+What are Functions?
+- are blocks(group) of code designed to perform a specific task.
+- they are like machines that take input data, process it, and produce output.
+- just like a blender, functions take in data, perform operations on it and produce a result.
+- a function in any programming language is a feature that lets us reuse our code to prevent code duplication, and promoting code efficiency.
+
+Why use Functions?
+1. Modularity - Functions help break down complex tasks into smaller, manageable parts, improving code readability and maintenance.
+
+2. Code Reusability - Once defined functions can be called multiple times from different parts of the code, reducing redundancy.
+
+3. Abstraction - Functions hide implementation details,  allowing developers to focus on high-level concepts rather than low-level code.
+
+
