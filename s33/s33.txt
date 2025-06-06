@@ -1,0 +1,12 @@
+Quiz Score Link:
+https://docs.google.com/forms/d/e/1FAIpQLSejzGE6QOCYCWyeaNbB98nFxPWfxxNfvFjvcF2yIatQczNlhg/viewscore?viewscore=AE0zAgCY9xq5trXX8hkxgKAgW25PjShMkN5o0xq0FKqWjXAEseXp6NQNuEof-y8Emw
+
+JavaScript - Introduction to JSON
+
+- JSON or JavaScript Object Notation, is a data format used by applications to store and transport data to one another.
+
+- Even though it has the "JavaScript" in its name, use of JSON is "not limited" to JavaScript-based applications and can also be used in other programming languages.
+
+- Files that store JSON data are saved with a file extension of ".json".
+
+** Stringify means it is in a string format
