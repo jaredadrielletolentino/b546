@@ -1,0 +1,70 @@
+Quiz Score Link:
+https://docs.google.com/forms/d/e/1FAIpQLSeS2rjkJ1EAhvCf0FDj-UXO4BEgYOMrZdEqAOS9zNBT37iL8w/viewscore?viewscore=AE0zAgAOhMNSQdAVPkbzTCS7LmsjFm4u4MB0NXjS_N_Hy1CQfZaIOvZnY8ADNJ63H-qpm7s
+
+** Tech Stack Milestone - JavaScript **
+- With you knowledge of JavaScript, you can effectively implement interactive and dynamic features in web applications, making you a valuable asset to development teams.
+
+MongoDB - Introduction to Database and NoSQL
+- Store and organize data in a database.
+- A database is an organized collection of information or data for efficient storage, retrieval, and management.
+	- Data is different from information, DATA is RAW and does not carry any specific meaning.
+	- INFORMATION on the other hand is a group of ORGANIZED data that contains logical meaning.
+
+DATABASES - provide a structure way to store and manage large volumes of data, ensuring data consistency and integrity.
+	- A DATABASE is managed by what is called a "database management system".
+
+What is DBMS
+	- is a system specifically designed to manage the storage, retrieval and modification of data in a database.
+	- Database system allows four type of operations when it comes to handling data, namely create(insert), read(select), update and delete.
+	- Collectively it is called the CRUD operations.
+
+*** Advantage of using DBMS ***
+
+1. Data Organization - Organizes data in a structured manner, making it easier to manage information.
+
+2. Data Security - Provides security mechanisms to protect sensitive data from unauthorized access.
+
+3. Data Consistency - Enforces rules to maintain data integrity and prevent inconsistencies.
+
+4. Efficient Queries - Optimize queries for better performance, event on large datasets.
+
+5. Data Sharing - Enables multiple users and applications to access and share data concurrently.
+
+** Relational Databases **
+- is a type of datase where data is stored as a set of tables with rows and columns (pretty much like atable pritned on a piece of paper).
+
+SQL(Structured Query Language)
+- is commonly associated with and used in RDBMS
+- a language used to interact with relational databases
+
+NoSQL Databases
+- For unstructured data(data does not necessarily fit into a strict tabular format)
+	> NoSQL Databases are commonly used
+		> NoSQL means NOT ONLY SQL, NoSQL was conceptualized when capturing complex, unstructure data became more diffcult.
+	> Developers can omit the process of recreating tables and backing up data and re importing them as needed on certain occasions.
+
+- Instead of tables, NoSQL databases can come in various forms such as JSON(document-based), key-value pairs, graphs and dynamic-sized tables.
+
+What is MongoDB?
+- Part of the word humongous which then means huge or enormous
+- is an open-source database and the leading NoSQL database.
+- known for its document-based data model, where data is store in JSON format.
+- Unlike tradition schema
+
+- MongoDB is known for its document-based data model. its language is highly expressive, and generally friendly to those already familiar with the JSON structure.
+
+- JSON's key-value structure naturally align with MongoDB's document-oriented approach, where data is stored as documents within collections. MongoDB's document are akin to JSON objects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
