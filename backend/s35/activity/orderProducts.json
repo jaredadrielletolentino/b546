@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "orderProd01",
+    "orderId": "order01",
+    "productId": "prod01",
+    "quantity": 1,
+    "price": 1200,
+    "subtotal": 1200
+  },
+  {
+    "_id": "orderProd02",
+    "orderId": "order02",
+    "productId": "prod02",
+    "quantity": 2,
+    "price": 800,
+    "subtotal": 1600
+  },
+  {
+    "_id": "orderProd03",
+    "orderId": "order03",
+    "productId": "prod03",
+    "quantity": 3,
+    "price": 200,
+    "subtotal": 600
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "user01",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@example.com",
+    "password": "hashedpassword123",
+    "isAdmin": true,
+    "mobileNumber": "123-456-7890"
+  },
+  {
+    "_id": "user02",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "janesmith@example.com",
+    "password": "hashedpassword456",
+    "isAdmin": false,
+    "mobileNumber": "987-654-3210"
+  },
+  {
+    "_id": "user03",
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "email": "alicejohnson@example.com",
+    "password": "hashedpassword789",
+    "isAdmin": false,
+    "mobileNumber": "555-555-5555"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "order01",
+    "userId": "user01",
+    "datetimeCreated": "2025-04-28T10:00:00Z",
+    "isPaid": true,
+    "total": 1200
+  },
+  {
+    "_id": "order02",
+    "userId": "user02",
+    "datetimeCreated": "2025-04-28T12:00:00Z",
+    "isPaid": false,
+    "total": 1600
+  },
+  {
+    "_id": "order03",
+    "userId": "user03",
+    "datetimeCreated": "2025-04-28T14:00:00Z",
+    "isPaid": true,
+    "total": 600
+  }
+]

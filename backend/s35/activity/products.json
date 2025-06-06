@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "prod01",
+    "name": "Laptop",
+    "description": "High-performance laptop with 16GB RAM and 512GB SSD.",
+    "price": 1200,
+    "stocks": 50,
+    "isActive": true,
+    "sku": "LAP12345"
+  },
+  {
+    "_id": "prod02",
+    "name": "Smartphone",
+    "description": "Latest smartphone with a 64MP camera and 128GB storage.",
+    "price": 800,
+    "stocks": 150,
+    "isActive": true,
+    "sku": "SMT98765"
+  },
+  {
+    "_id": "prod03",
+    "name": "Headphones",
+    "description": "Noise-cancelling over-ear headphones with Bluetooth support.",
+    "price": 200,
+    "stocks": 80,
+    "isActive": true,
+    "sku": "HP123456"
+  }
+]
