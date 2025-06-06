@@ -1,0 +1,24 @@
+Quiz Score Link: 
+https://docs.google.com/forms/d/e/1FAIpQLSd0e1edgR_MY2sJXFkdI63imPgkmimNZcnxpauwT6G_BEYP4g/viewscore?viewscore=AE0zAgCYAULMOnuFuwlrCMR3rGVZOIxKP7tjdw5zkbr04tezGkH5G0KH-a97-2nhqA
+
+** JavaScript - Repetition Control Structures **
+- Create loops to repeat codes and tasks based a given condition.
+
+1. Loops 
+- Are one of the most important feature that a programming language must have.
+- It lets  us execute code repeatedly in a pre-set number of time or maybe forever.
+
+2. While Loop
+- Takes a single condition. if the condition evaluates to "true", the code inside the block will run.
+
+3. Do-While Loop
+- This type of loop works a lot like the while loop. But unlike while loops, do-while loops "guarantee" that the code will be "executed at least once".
+
+4. For Loop
+- A for loop is more flexible than while and do-while loops. it consist of three parts
+- The "initial value" that will track the progression of the loop
+- the condition that will evaluated and will determine whether the loop will run one more time; and the iteration that indicates how to advance the loop. 
+Syntax:
+for (initial value; condition;  iteration) {
+	statement/s;
+}

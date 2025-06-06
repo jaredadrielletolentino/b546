@@ -1,0 +1,12 @@
+JavaScript - Array Manipulation - Mutator Methods
+
+Manipulating Arrays
+- Javascript has built-in functions and methods for arrays.
+- This allows us to manipulate and access array items.
+- Arrays can either be "mutated" or "iterated".
+
+- Array "mutations seek to modify" the contents of an array while array "iterations aim to evaluate" each elements in an array.
+
+Mutator Methods
+- Mutator methods are functions that "mutate" or change an array after they're created.
+- These methods manipulate the original array performing various tasks such as "adding" and "removing" elements.

@@ -1,0 +1,18 @@
+Quiz Score Link: https://docs.google.com/forms/d/e/1FAIpQLSe4inqQS8JjsXQ_hOtr2H0jkID1pRrKprvmb8uksH5rUTh_xg/viewscore?viewscore=AE0zAgAzqaOFhz8mlnEP8rJeFtXsO7GAnEzKZLClpcGENn_jRno2pBAk0p0eNWsv6w
+
+JavaScript - Array Manipulation - Non-Mutator Methods
+
+JavaScript has built-in function and methods for arrays.
+- This allows us to manipulate
+
+- Non-Mutator methods are functions that do not modify or change an array after they're invoked.
+
+- These methods do not manipulate the original array returning elements from an array and combining arrays and printing the output.
+
+- Iteration methods are loops designed to perform repetitive tasks on arrays
+
+- Iteration methods loops over all items in an array.
+
+- Useful for manipulating array data resulting in complex tasks
+
+- How these function works is by performing tasks that are pre-defined within an array's method.
