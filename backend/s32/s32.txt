@@ -1,0 +1,12 @@
+Quiz Score Link:
+https://docs.google.com/forms/d/e/1FAIpQLSe-bbiOg1btjsDfYlaLkpSegkdERGVoN4IBW8L3wRbSaZ6npg/viewscore?viewscore=AE0zAgB9NfUpxe0dKGkMCx86NC6q1IUx2g47peeB3vVtjoP93xj52TYn-0F-y7aqZA
+
+JavaScript - ES6 Updates
+
+ES in ES6 means ECMAScript
+- is the standard that is used to create implementation of the language, one of which is JavaScript.
+- ES6 (also known as ECMAScript 2015) is an update to the previous versions of the ECMAScript.
+- This means that the ES6 update brings new features to JavaScript.
+- This course will focus on basic updates from ES6(ECMAScript 2015)only since it will allow us to write less and do more.
+
+DRY method - Do not Repeat Youself (To Shorten Your Code)
