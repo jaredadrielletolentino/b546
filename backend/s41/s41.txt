@@ -1,0 +1,49 @@
+Express.js - Modules and Parameterized Routes
+
+*** Separation of Concerns ***
+
+Why do we have to?
+> Better code readability
+> Improved Scalability
+> Better code maintainability
+
+What do we separate?
+> Models
+> Controllers
+> Routes
+
+1. Models
+> Contains WHAT objects are needed in our API
+> Object schemas and relationships are defined here
+	- Schemas are JSON objects that define the structure and content of documents
+
+2. Controllers
+> Contains instructions on HOW your API will perform its intended tasks
+> Mongoose model queries are used here, examples are:
+	- Model.find()
+	- Model.findByIdAndDelete()
+	- Model.findByIdAndUpdate()
+3. Routes
+> Defines WHEN particular controllers will be used
+> A specific controller action will be called when specific HTTP method is received on a specific API endpoint
+
+> We separate our concerns through the use of JS module that will be discussed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
