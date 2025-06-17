@@ -1,0 +1,13 @@
+Express.js API Development (Part 3) - Express.js - Middleware
+
+
+Install node_module
+*** Booking System API - Middleware ***
+> What are middleware
+	- refers to software components that sit between different parts of an applications architecture and facilitate.
+	- A current example of this within our current codebase is the verify() method which sits between our route and our handler and controller.
+
+> Middleware in ExpressJS
+	- Refers to functions that have access to the request and response objects during the request-reponse cycle.
+	- They can perform tasks like authentication, logging and data transformation before sending the final response to the client.
+	- verify() has access to the requests and response objects as it is passed to it upon activation of our route by a client request.
