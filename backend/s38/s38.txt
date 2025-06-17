@@ -1,0 +1,77 @@
+Quiz Score Link:
+https://docs.google.com/forms/d/e/1FAIpQLSf5ZmZOe4aQXYSyzROFDREt7c_ABYysW8es2AHHGI5YxmOxQg/viewscore?viewscore=AE0zAgC7NKyVzh9x_IWOymGX7Yuk-NvkB4wbGS3Y2cjua3ZMaizwihFpzU2qsFP3aA
+
+Tech Stack Milestone - MongoDB
+> MongoDB
+> NoSQL
+> Database Design
+> Database Management
+
+Node.js - Introduction & Routing w/ HTTP Methods and Postman
+
+** Client-Server Architecture
+> Develop a statis front-end application
+> Create and manipulate a MongoDB database
+
+Benefits of Client-Server Architecture
+> Centralized data makes applications more scalable and maintainable
+> Multiple client apps may all sue dynamically-generated data
+> Workload is concentrated on the server, making client apps lightweight
+> Improves data availability
+
+For JS developers, we have Node.js for building server-side applications.
+
+*** What is Node.js? ***
+> An open-source, JavaScript runtime environment for creating server-side applications.
+
+Runtime Environment (of Node.js)
+> Gives the context for running a programming language
+> JS was initially within the context of the browser, giving it access to:
+	- DOM
+	- Window Object
+	- Local Storage
+	- Etc.
+> With Node.js the context was taken out of the browser and put into the server
+> With Node.js JavaScript now has access to the following:
+	- System Resources
+	- Memory
+	- File System
+	- Network
+	- Etc.
+
+Benefits:
+> Performance - Optimized for web app
+> Familiarity - "Same old" JavaScript
+> Acces to Node Package Manager (NPM) - World's largest registry of packages
+
+Managing Routes
+What are routes in NodeJS?
+> Routes in Node.js are URL paths that define how the server should handle incoming requests.
+Why do we need routes?
+> So a server can respond appropriately to different kinds of requests from a client.
+
+** HTTP Methods **
+> Our current routes with endpoints are sufficient for retrieving/getting resources or data. But what about create, update, and delete operations.
+
+To run server
+node <fileName>
+
+To kill server
+npx kill-port <portNumber>
+
+Example: npx kill-port 4000
+
+To check running server
+Windows: 
+netstat -ano | findstr LISTENING
+
+macOS/Linux:
+lsof -i -P -n | grep LISTEN
+
+
+
+
+
+
+
+
