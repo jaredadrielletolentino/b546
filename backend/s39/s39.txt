@@ -1,0 +1,65 @@
+Introduction to Express.js and REST
+
+What is an API?
+> The part of a server responsible for receiving "requests" and sending "responses"
+> Application Programming Interface "API"
+> Just as a bank teller stands between a customer and the banks vault, an API acts as the middleman between the front and back ends of an application.
+
+What is it for?
+> Hides the server beneath an interface layer
+	- Hidden complexity makes apps easier to use
+	- Sets the rules of interaction between front and back ends of an application, improving security
+
+> Handles the exchange of requests and responses between a client and server.
+
+** CORS = Cross Origin Resource Sharing
+
+What is REST?
+> REpresentational State Transfer or REST
+> An architetural style for providing standards for communication between computer systems.
+
+What problem does it solve?
+> The need to separate user interface concerns of the client from data storage concerns of the server
+
+How does it solve the problem?
+> Statelessness
+	- No Memory: Server  and client don't remember past interactions.
+	- Self-Contained Requests: Each request includes all necessary info.
+	- Uses Resources & HTTP methods: Actions are defined
+> Standardized Communication
+	- The server handles each client request independently without remembering previous interactions
+	- Manage data using specific URLS(like/api/photos) and actions such as GET, POST, PUT and DELETE
+		- Resources are plural by convention
+			Ex
+			- /api/photos(NEVER/photos)
+Anatomy of a Client Request
+	> A path to the resource to be operated on
+		- URI endpoint
+	> A header containing additional request information
+
+** EXPRESS.JS **
+> Express.js is a popular and lightweight web application framework for Node.js
+> It simplifies the process of building web applications and APIs by providing a set of robust and flexible features for routing, middleware
+
+Advatages (over plain Node.js) in creating an API:
+> Simplicity
+	- It is easy to learn and use.
+> Offers ready to use components for the most common web development needs
+> Add easier routing and processing of HTTP methods
+
+npm init - This is use to initialize a node package manager in our directory.
+		 - npm is responsible for assisting us developer with managing dependecies within a project.
+		 - Triggering this command will prompt the user for the different settings that will define the application.
+
+npm install <packaageName>
+	- This will install a dependency in your directory.
+
+node_modules
+	- This contains the files needed for our dependency/ies.
+
+revert to the prev commit => gitignore => git add . => git commit -m "" => git push
+
+
+
+
+
