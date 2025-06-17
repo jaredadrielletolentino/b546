@@ -1,0 +1,12 @@
+MongoDB - CRUD, Query Operators and Field Projection
+- Create, Retrieve, Update and Delete data from a NoSQL database, Expand queries in MongoDB
+
+What is MongoDB Atlas?
+- is a MongoDB database located in the cloud and can be deployed in a cloud platform like Amazon Web Services, Azure or Google Cloud Playform.
+
+- We are assured that our data is already deployed in the cloud and less configuration will be needed later in the future sessions.
+
+commands in mongodb shell
+log - write
+use - set current database
+show - show databases
