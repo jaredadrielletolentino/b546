@@ -1,0 +1,21 @@
+MongoDB - Aggregation
+- Process MongoDB documents and return computed results
+
+** Aggregation in MongoDB **
+- An aggregate is cluster of things that have come or have been brought together.
+- Aggregation are needed when your application needs a form of information that is "not visibly" available from your documents.
+
+** Use Cases for Aggregations **
+> Here are some example scenarios where you would want to use aggregations in MongoDB
+
+Example:
+1. You would like to know which students have not finished their courses yet.
+2. Count the total number of courses a student has completed.
+3. Determine the number of students who completed a specified course.
+
+** Aggregation Pipelines **
+> Application on MongoDB only
+
+** Aggregation Pipeline Syntax **
+> Aggregations in MongoDB are "very flexible" and you can form your "own" aggregation pipeline depending on the need of your application
+> The aggregation pipeline in MongoDB is a framwork for "data aggregation"
