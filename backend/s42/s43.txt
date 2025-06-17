@@ -1,0 +1,53 @@
+Express.js API Development (Part 2) - Registration and Authentication and JWT's
+
+User Registration
+> The process of creating a new user document in the users collection once all required info has been received.
+
+> The password is a crucial piece of data for a user in most applications, as it is used for authentication and access control.
+> It's essential to handle passwords securely to protect user accounts from unauthorized access and potential breaches.
+
+> To handle the password securely, we can use the bcrypt
+
+Bcrypt (Link: https://bcrypt-generator.com/)
+> is a secure cryptographics hashing function commonly used for password hashing.
+> It includes salting and hashing algorithms to securely store passwords.
+
+User Authentication
+> The process of verifying that a users identity is true
+	- usually via a username + password combination.
+
+> Once user identity has been proven, a JWT may be issued to the source of the request.
+
+
+JWT
+> Is an object that securely transmits information between parties in a compact and self-container way.
+> Transmitted information can be verified and trusted because a JWT is digitally signed using a secret that only the server knows.
+> It's often used for authentication, allowing users to prove who they are without repeatedly sending passwords.
+> Just like when you logged in to your social media accounts.
+
+Anatomy of a JWT
+> Header (1st)
+> Payload (2nd)
+> Signature (3rd)
+
+Typically has the following structure: xxxxx.yyyyy.zzzzz or 11111.22222.33333 (the first dot is header)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

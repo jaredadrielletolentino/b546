@@ -1,0 +1,76 @@
+WDC028v5.0.0-42 Express.js API Development (Part 1) - Data Modeling and Initial Setup
+
+*** Booking System MVP Requirements ***
+
+MVP - Minimum Viable Product is a product that has enough features to be useful to its target market. It is used to validate a product idea at the onset of development.
+
+Our Booking System MVP must have the following features:
+> User Registration
+> User Authentication (Login)
+> Retrieval of authenticated users details
+> Course creation by an authenticated user
+> Retrieval of courses
+> Course info updating by an authenticated user
+> Course archiving and activating by an authenticated user
+> User enrollment to created Courses
+
+Booking System API Dependencies
+
+Besides express and mongoose, we have the following additional packages:
+> cors - for allowing cross-origin resource sharing
+> bcrypt - for hashing user passwords prior to storage
+> jsonwebtoken - for implementing JSON web tokens
+
+Booking System Data Models
+> Step 1: Define the requirements
+	- What data needs to be stored?
+	- How are they related to each other
+> Step 2: Identify Entities
+	- Identify the main entities or objects in your app
+		- What data needs to be stored?
+			- We need  to store User, Course and Enrollment data.
+			- In our case the main entities are likely to be "User","Course" and "Enrollment"
+> Step 3: Define Entity Attributes
+	- List the attributes (properties) for each entity based on requirements:
+> Step 4: Identify Relationships
+	- Determine how entities are related to each other
+		- Theres one to many relationship between the user and enrollment
+			- A user can have multiple enrollments but each enrollment is for one user
+			- This relationship is represented by the "Enrollment" entity.
+		- In our case, theres a many-to-many relationship between Enrollment and Courses:
+			- An enrollment can have multiple courses.
+			- A course can be enrolled in multiple enrollments.
+> Step 5: Create the ERD
+	- Create an ERD to determine the relationship between our entities
+		- User-Enrollment(One-to-Many)
+			- A user can have multiple enrollments, but each enrollment is for one user.
+			- This relationship is represented
+		- The userId in the Enrollment entity references a User. The relationship between 		  Enrollment and Course have create an associative entity, the EnrollmentCourse.
+> Step 6: Create the Schema
+> Step 7: Define Data Types and Validation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
