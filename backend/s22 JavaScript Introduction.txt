@@ -1,0 +1,19 @@
+Quiz Score: https://docs.google.com/forms/d/e/1FAIpQLSf0nH0jxinZMZuiLEMOk7kLS-y88YIw3BO3soW0w86zdO3vYg/viewscore?viewscore=AE0zAgA_UyQ2AhpEHdc-IwfBzUMKqlDSmdG4yoW7AZI2ryY5T6lWK_meoEQEUhwKTw
+
+
+JavaScript - Syntax, Variables, and Simple Operations
+- is a scripting language that enables you to make interactive web pages.
+- along with HTML and CSS, forms the core technologies of the World Wide Web.
+- were originally intended for web browsers. However, they are now also integrated in web servers through the use of Node.js, which will be tackled later in the bootcamp.
+
+* Uses of JavaScript
+1. Web App Development
+2. Browser-based game development
+3. Art Creation
+4. Mobile Applications
+
+"" - meaning string data type
+
+JavaScript is Synchronus (Top to bottom: reading then Left to Right: start of reading)
+
+NOTE: Define first before using a variable

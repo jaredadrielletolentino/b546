@@ -1,0 +1,8 @@
+{
+    "url": "https://tolentino-fitness-app-cpma.vercel.app/",
+    "endpoints": {
+        "register": "/register",
+        "login": "/login",
+        "workouts": "/workouts"
+    }
+}

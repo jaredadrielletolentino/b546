@@ -1,0 +1,29 @@
+React.js - Component Driven Development
+> Build user interfaces specifically for single-page applications using ReactJS
+
+What is React.js?
+> Declarative - lets you focus on what your app should look like, not how to build it step by step. This makes your code simpler and easier to fix.
+
+> Component-Based - Break your app into small, reusable pieces called components, For example, a button or a navigation bar can be a component you can add anywhere in your app.
+
+> Learn Once, Use Anywhere - The skills you learn with React can be used for web apps and mobile apps(with React Native), so you don't need to start over for different platforms.
+
+What Problem Does It Solve?
+> Applications that require frequent and rapid changes in page data are resources-intensive and complicated to code.
+
+How React.js Solves The Problem?
+> Separate concerns into components where each PART of the page can handle data by itself
+	- Using states, store and manage information within a component independent from other components
+
+> Update only the changes, like replacing a light bulb without rebuilding the entire house. It makes updates faster and more efficient using the Virtual DOM.
+
+Apps Built Using React
+> Facebook
+> Instagram
+> Netflix
+
+Setting Up React.js Project
+> npx create-react-app <nameOfApp> (App name should be no spacing and folder name "CRA")
+Viewing the React.js Project
+> npm install 
+> npm start (To run application)

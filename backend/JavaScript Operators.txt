@@ -1,0 +1,13 @@
+Quiz link: https://docs.google.com/forms/d/e/1FAIpQLSdHE3GDQ7l4BREU2G95bLWchXfYuow6NZZ9REqaXoiAbyoq8A/viewscore?viewscore=AE0zAgD_RJJl9deLIds76VluzEsYzsgzKRHpryvTG2IMZxA2bJ42MrockzccPJdxXQ
+
+JavaScript Operators
+- Operators allow programming languages to execute operations or evaluations.
+
+** Types of Operators **
+
+Arithmetic Operators
+Assignment Operators
+Increment and Decrement
+Comparison Operators
+Relational Operators
+Logical Operators

@@ -1,0 +1,87 @@
+Express.js API Development (Part 8) - Web Security
+> Implementing Best Practices for creating Web Security
+
+Single Sign-on
+> An authentication method that enables users to securely authenticate with multiple applications and websites by using just one set of credentials.
+
+> SSO works based upon a trust relationship set up between an application, known as the service provider (sp), and an identity provider (idp).
+
+> This trust relationship is often based upon a certificate that is exchanged between the identity provider and the service provider.
+
+What makes a True SSO System?
+> Its important to understand the difference between single sign-on and password vaulting or password managers, which are sometimes referred same sign-on and not single sign-on.
+
+> With password vaulting, you may have the same username and password, but they need to be entered each time you move to a different application or website. It simply stores your credentials for all the different applications and inserting them when necessary.
+
+> With SOO, meaning Single Sign-On, after you're logged in via the SSO solution, you can access all company-approved applications and websites without having to log in again.
+
+Different Types of SSO
+1. Federated Identity Management (FIM) - It refers to a trust relationship that is created between two or more domains or identity management systems.
+2. OAuth - A framework that could also be considered part of a FIM architecture. OAuth focuses on that trusted relationship allowing user identity information to be shared across the domains.
+3. OpenID Connect (OIDC) is an authetication layer that was build on top of OAuth 2.0 to provide Single Sign-on functionality.
+4. Security Assertion Markup Language (SAML) - Allows identity providers (IdP) to pass authorization credentials to service providers (SP). What that jargon means is that you can use one set of credentials to log into many different websites.
+
+> Same Sign On (SSO) - it doesn't involve any trust relationship between website
+
+passport passport-google-oauth20 express-session
+
+Required to install 
+1. passport
+2. passport-google-oauth20
+3. express-session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

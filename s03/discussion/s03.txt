@@ -1,8 +1,0 @@
-<img /> - no need for closing tags
-
-<ul> - unorder list
-<ol> - ordered list numbered list
-<li> - use inside the unorder list or ordered list
-boilerplate - <html> </html>
-Block element - automatically consumes full width (h1,h2,h3,h4,h5,h5)
-inline element - will not cause line break and will only take width (em,strong)
